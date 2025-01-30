@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "expmem"
+version = "0.1.0"
+description = ""
+authors = ["Harshavardhan K <harshavardhank@me.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langgraph = "^0.2.36"
+langsmith = "^0.1.135"
+openai = "^1.51.2"
+dspy-ai = "^2.5.7"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.2.2"
+tavily-python = "^0.5.0"
+langchain-community = "^0.3.2"
+tiktoken = "^0.8.0"
+langchainhub = "^0.1.21"
+chromadb = "^0.5.13"
+langchain = "^0.3.3"
+litellm = "1.49.2"
+google-generativeai = "^0.8.3"
+pinecone = "^5.3.1"
+torch = "^2.4.1"
+llm-sandbox = "^0.1.1"
+pandas = "^2.2.3"
+plotly = "^5.24.1"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.2"
+pymongo = {extras = ["srv"], version = "^4.10.1"}
+streamlit = "^1.39.0"
+pygments = "^2.18.0"
+autopep8 = "^2.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
