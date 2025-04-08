@@ -1,21 +1,51 @@
 # Expmem: RAG-Based Coding Agents with Long-Term Memory
 
 ## Overview
-This project leverages **Retrieval-Augmented Generation (RAG)** and **long-term memory mechanisms** to create more intelligent and context-aware coding agents. By integrating RAG for efficient retrieval of relevant knowledge and memory-enhanced architectures for persistent learning, the agents improve their ability to assist with complex coding tasks over time.
+This project leverages **Retrieval-Augmented Generation (RAG)** and **long-term memory mechanisms** to create more intelligent and context-aware coding agents. By integrating RAG for efficient retrieval of relevant knowledge and memory-enhanced architectures for persistent learning, the agents improve their ability to assist with complex coding tasks over time. Our RAG-based agentic coding approach has demonstrated exceptional performance on the HumanEval coding dataset, showcasing the effectiveness of memory-enhanced code generation.
+
+The system implements advanced contextual RAG with sophisticated document processing, semantic understanding, and dynamic query transformation. The agentic system features a multi-stage workflow that includes intelligent document grading, query rewriting, and context-aware code generation.
 
 ## Features
-- **RAG-Enhanced Retrieval:** Uses external knowledge bases to fetch relevant code snippets, documentation, and best practices.
-- **Long-Term Memory:** Implements memory mechanisms (e.g., vector databases, knowledge graphs) to store and recall past interactions.
-- **Incremental Learning:** Improves over time by adapting to user preferences and refining responses based on past experiences.
-- **Multi-Agent Collaboration:** Enables multiple AI agents to work together for debugging, code completion, and optimization.
-- **Human-in-the-Loop (HITL):** Supports user feedback loops for iterative improvements.
+- **Advanced Contextual RAG:**
+  - Semantic document chunking with context preservation
+  - Intelligent document grading for relevance assessment
+  - Dynamic query transformation and rewriting
+  - Multi-stage retrieval and generation pipeline
+  - Context-aware code generation with error analysis
+
+- **Agentic System Architecture:**
+  - Multi-stage workflow with intelligent routing
+  - Document relevance grading
+  - Query transformation capabilities
+  - Context-aware code generation
+  - Integrated error analysis and debugging
+
+- **Long-Term Memory:**
+  - Contextual memory storage with semantic understanding
+  - Intelligent chunking with context preservation
+  - Memory retrieval with relevance scoring
+  - Persistent learning from past interactions
+
+- **Code Generation Features:**
+  - Context-aware code generation
+  - Error analysis and debugging
+  - Test case validation
+  - Code explanation generation
+  - Solution optimization
+
+- **HumanEval Performance:** Achieves high success rates on the HumanEval coding benchmark through memory-enhanced code generation.
 
 ## Technologies Used
-- **Language Models:** OpenAI GPT, Llama, or Mistral-based LLMs
-- **Vector Databases:** FAISS, Pinecone, Weaviate
-- **Frameworks:** LangChain, LangGraph, Transformers
-- **Orchestration:** Docker, FastAPI
-- **Memory Storage:** Redis, PostgreSQL, or custom long-term memory modules
+- **Language Models:** OpenAI GPT-4, GPT-4o-mini
+- **Vector Databases:** Pinecone with text-embedding-3-small embeddings
+- **Frameworks:** 
+  - DSPy for RAG pipeline optimization
+  - LangGraph for agent orchestration
+  - LangChain for LLM integration
+  - Streamlit for visualization
+- **Memory Storage:** MongoDB for context storage
+- **Development Tools:** Poetry for dependency management
+- **Evaluation:** LLM Sandbox for code execution and testing
 
 ## Setup Instructions
 1. **Clone the Repository:**
