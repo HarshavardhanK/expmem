@@ -37,13 +37,17 @@ The system implements advanced contextual RAG with sophisticated document proces
 
 ## Technologies Used
 - **Language Models:** OpenAI GPT-4, GPT-4o-mini
-- **Vector Databases:** Pinecone with text-embedding-3-small embeddings
+- **Vector Databases:** 
+  - Pinecone with text-embedding-3-small embeddings for long-term memory storage
+  - Contextual memory with semantic understanding
 - **Frameworks:** 
   - DSPy for RAG pipeline optimization
   - LangGraph for agent orchestration
   - LangChain for LLM integration
   - Streamlit for visualization
-- **Memory Storage:** MongoDB for context storage
+- **Storage Systems:**
+  - MongoDB for dataset context and experiment results
+  - Pinecone for vector-based memory storage
 - **Development Tools:** Poetry for dependency management
 - **Evaluation:** LLM Sandbox for code execution and testing
 
